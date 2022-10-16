@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Platillos del mundo</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+
+<div class="tabla">
+
+<table class="table table-striped table-hover">
+ 
+  <thead>
+        <tr>
+            <th class="table-primary">Platillo</th>
+            <th class="table-primary">Nombre</th>
+            <th class="table-primary">Pais de origen</th>
+        </tr>
+    </thead>
+
+    <tbody class="cuerpo">
+        <tr>
+            <td><img src="Imag/Hamburguesa.jpg" class="rounded mx-auto d-block" alt="" width="200px" height="200px"></td>
+            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-egg" viewBox="0 0 16 16">
+                <path d="M8 15a5 5 0 0 1-5-5c0-1.956.69-4.286 1.742-6.12.524-.913 1.112-1.658 1.704-2.164C7.044 1.206 7.572 1 8 1c.428 0 .956.206 1.554.716.592.506 1.18 1.251 1.704 2.164C12.31 5.714 13 8.044 13 10a5 5 0 0 1-5 5zm0 1a6 6 0 0 0 6-6c0-4.314-3-10-6-10S2 5.686 2 10a6 6 0 0 0 6 6z"/>
+              </svg> <span class="badge bg-info text-dark" onclick="comida1()">Hamburguesa</span></td>
+            <td>Alemania</td>
+        </tr>
+
+        <tr>
+            <td><img src="Imag/Pizza.jpg" class="rounded mx-auto d-block" alt="..." width="200px" height="200px"></td>
+            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-egg" viewBox="0 0 16 16">
+                <path d="M8 15a5 5 0 0 1-5-5c0-1.956.69-4.286 1.742-6.12.524-.913 1.112-1.658 1.704-2.164C7.044 1.206 7.572 1 8 1c.428 0 .956.206 1.554.716.592.506 1.18 1.251 1.704 2.164C12.31 5.714 13 8.044 13 10a5 5 0 0 1-5 5zm0 1a6 6 0 0 0 6-6c0-4.314-3-10-6-10S2 5.686 2 10a6 6 0 0 0 6 6z"/>
+              </svg> <span class="badge bg-info text-dark" onclick="comida2()">Pizza</span></td>
+            <td>Italia</td>
+        </tr>
+
+        <tr>
+            <td><img src="Imag/Sushi.jpg" class="rounded mx-auto d-block" alt="..." width="200px" height="200px"></td>
+            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-egg" viewBox="0 0 16 16">
+                <path d="M8 15a5 5 0 0 1-5-5c0-1.956.69-4.286 1.742-6.12.524-.913 1.112-1.658 1.704-2.164C7.044 1.206 7.572 1 8 1c.428 0 .956.206 1.554.716.592.506 1.18 1.251 1.704 2.164C12.31 5.714 13 8.044 13 10a5 5 0 0 1-5 5zm0 1a6 6 0 0 0 6-6c0-4.314-3-10-6-10S2 5.686 2 10a6 6 0 0 0 6 6z"/>
+              </svg> <span class="badge bg-info text-dark" onclick="comida3()">Sushi</span></td>
+            <td>Japón</td>
+        </tr>
+
+        <tr>
+            <td><img src="Imag/Paella.jpg" class="rounded mx-auto d-block" alt="..." width="200px" height="200px"></td>
+            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-egg" viewBox="0 0 16 16">
+                <path d="M8 15a5 5 0 0 1-5-5c0-1.956.69-4.286 1.742-6.12.524-.913 1.112-1.658 1.704-2.164C7.044 1.206 7.572 1 8 1c.428 0 .956.206 1.554.716.592.506 1.18 1.251 1.704 2.164C12.31 5.714 13 8.044 13 10a5 5 0 0 1-5 5zm0 1a6 6 0 0 0 6-6c0-4.314-3-10-6-10S2 5.686 2 10a6 6 0 0 0 6 6z"/>
+              </svg> <span class="badge bg-info text-dark" onclick="comida4()">Paella</span></td>
+            <td>España</td>
+        </tr>
+
+        <tr>
+            <td><img src="Imag/Fondue.jpg" class="rounded mx-auto d-block" alt="..." width="200px" height="200px"></td>
+            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-egg" viewBox="0 0 16 16">
+                <path d="M8 15a5 5 0 0 1-5-5c0-1.956.69-4.286 1.742-6.12.524-.913 1.112-1.658 1.704-2.164C7.044 1.206 7.572 1 8 1c.428 0 .956.206 1.554.716.592.506 1.18 1.251 1.704 2.164C12.31 5.714 13 8.044 13 10a5 5 0 0 1-5 5zm0 1a6 6 0 0 0 6-6c0-4.314-3-10-6-10S2 5.686 2 10a6 6 0 0 0 6 6z"/>
+              </svg> <span class="badge bg-info text-dark" onclick="comida5()">Fondue</span></td>
+            <td>Suiza</td>
+        </tr>
+
+        <tr>
+            <td><img src="Imag/Tacos.jpg" class="rounded mx-auto d-block" alt="..." width="200px" height="200px"></td>
+            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-egg" viewBox="0 0 16 16">
+                <path d="M8 15a5 5 0 0 1-5-5c0-1.956.69-4.286 1.742-6.12.524-.913 1.112-1.658 1.704-2.164C7.044 1.206 7.572 1 8 1c.428 0 .956.206 1.554.716.592.506 1.18 1.251 1.704 2.164C12.31 5.714 13 8.044 13 10a5 5 0 0 1-5 5zm0 1a6 6 0 0 0 6-6c0-4.314-3-10-6-10S2 5.686 2 10a6 6 0 0 0 6 6z"/>
+              </svg> <span class="badge bg-info text-dark" onclick="comida6()">Tacos</span></td>
+            <td>México</td>
+        </tr>
+
+        <tr>
+            <td><img src="Imag/Chop Suey.jpg" class="rounded mx-auto d-block" alt="..." width="200px" height="200px"></td>
+            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-egg" viewBox="0 0 16 16">
+                <path d="M8 15a5 5 0 0 1-5-5c0-1.956.69-4.286 1.742-6.12.524-.913 1.112-1.658 1.704-2.164C7.044 1.206 7.572 1 8 1c.428 0 .956.206 1.554.716.592.506 1.18 1.251 1.704 2.164C12.31 5.714 13 8.044 13 10a5 5 0 0 1-5 5zm0 1a6 6 0 0 0 6-6c0-4.314-3-10-6-10S2 5.686 2 10a6 6 0 0 0 6 6z"/>
+              </svg> <span class="badge bg-info text-dark" onclick="comida7()">Chop suey</span></td>
+            <td>China</td>
+        </tr>
+
+        <tr>
+            <td><img src="Imag/Bandeja paisa.jpg" class="rounded mx-auto d-block" alt="..." width="200px" height="200px"></td>
+            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-egg" viewBox="0 0 16 16">
+                <path d="M8 15a5 5 0 0 1-5-5c0-1.956.69-4.286 1.742-6.12.524-.913 1.112-1.658 1.704-2.164C7.044 1.206 7.572 1 8 1c.428 0 .956.206 1.554.716.592.506 1.18 1.251 1.704 2.164C12.31 5.714 13 8.044 13 10a5 5 0 0 1-5 5zm0 1a6 6 0 0 0 6-6c0-4.314-3-10-6-10S2 5.686 2 10a6 6 0 0 0 6 6z"/>
+              </svg> <span class="badge bg-info text-dark" onclick="comida8()">Bandeja paisa</span></td>
+            <td>Colombia</td>
+        </tr>
+
+        <tr>
+            <td><img src="Imag/Ratatouille.jpg" class="rounded mx-auto d-block" alt="..." width="200px" height="200px"></td>
+            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-egg" viewBox="0 0 16 16">
+                <path d="M8 15a5 5 0 0 1-5-5c0-1.956.69-4.286 1.742-6.12.524-.913 1.112-1.658 1.704-2.164C7.044 1.206 7.572 1 8 1c.428 0 .956.206 1.554.716.592.506 1.18 1.251 1.704 2.164C12.31 5.714 13 8.044 13 10a5 5 0 0 1-5 5zm0 1a6 6 0 0 0 6-6c0-4.314-3-10-6-10S2 5.686 2 10a6 6 0 0 0 6 6z"/>
+              </svg><span class="badge bg-info text-dark" onclick="comida9()">Ratatouille</span></td>
+            <td>Francia</td>
+        </tr>
+
+        <tr>
+            <td><img src="Imag/Ceviche.jpg" class="rounded mx-auto d-block" alt="..." width="200px" height="200px"></td>
+            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-egg" viewBox="0 0 16 16">
+                <path d="M8 15a5 5 0 0 1-5-5c0-1.956.69-4.286 1.742-6.12.524-.913 1.112-1.658 1.704-2.164C7.044 1.206 7.572 1 8 1c.428 0 .956.206 1.554.716.592.506 1.18 1.251 1.704 2.164C12.31 5.714 13 8.044 13 10a5 5 0 0 1-5 5zm0 1a6 6 0 0 0 6-6c0-4.314-3-10-6-10S2 5.686 2 10a6 6 0 0 0 6 6z"/>
+              </svg> <span class="badge bg-info text-dark" onclick="comida10()">Ceviche</span></td>
+            <td>Perú</td>
+        </tr>
+    </tbody>
+</table>
+
+</div>
+
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="js/alerts.js"></script>
+</html>
